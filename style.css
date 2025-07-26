@@ -1,0 +1,65 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(23, 23, 23);
+    padding: 20px;
+    width: 600px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 6px 12px lightgray;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-wrapper h4 {
+    font-size: 24px;
+    color: rgb(50, 50, 50);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#amount {
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#result {
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#convertButton {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid rgb(23, 23, 23);
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
