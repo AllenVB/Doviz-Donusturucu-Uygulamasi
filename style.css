@@ -34,7 +34,7 @@
 }
 
 #amount {
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(100, 100, 100);
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
@@ -43,7 +43,7 @@
 }
 
 #result {
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(50, 50, 50);
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
@@ -54,12 +54,31 @@
 #convertButton {
     display: flex;
     align-items: center;
-    background-color: gray;
+    background-color: green;
     color: white;
     font-size: 16px;
     padding: 10px 20px;
-    border: 1px solid rgb(23, 23, 23);
+    border: 2px solid rgb(23, 23, 23);
+    box-shadow: 2px 8px 13px gray;
     border-radius: 5px;
     margin-top: 20px;
 
+}
+
+#secondCurrencyOption {
+    font-size: 16px;
+    color: rgb(50, 50, 50);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#firstCurrencyOption {
+    font-size: 16px;
+    color: rgb(50, 50, 50);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 10px;
 }
